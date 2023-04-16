@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" 
+   href="../users/Users_CSS/navbar.css" 
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+   />
+   <title>Document</title>
+
+    
+     
+
+ </head>
+ <body>
+   <nav class="navbar" id="navbar">
+     <!-- LOGO -->
+     <div class="logo" id="logo"><h>Water Crisis Management System</h></div>
+     <!-- NAVIGATION MENU -->
+     <ul class="nav-links">
+       <!-- USING CHECKBOX HACK -->
+       <input type="checkbox" id="checkbox_toggle" />
+       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+       <!-- NAVIGATION MENUS -->
+       <div class="menu">
+         <li><a href="home.html">Home</a></li>
+         <li><a href="">About</a></li>
+         
+         </li>
+         <li><a href="">New Posts</a></li>
+          
+         <li><a href="login.html">Sign In</a></li>
+         <li><a href="/users/sign_up.html">Sign Up</a></li>
+         <div class="action">
+          <div class="profile" onclick="menuToggle();"> 
+            <img src=" /users/Images/profile_iconn.jpg" />
+              </div>
+
+            <div class="profile_menu">
+              <ul>
+                <li>
+                   <a href="profile.html">My profile</a>
+                </li>
+                <li>
+                   <a href="#">Edit profile</a>
+                </li>
+                <li>
+                   <a href="#">Inbox</a>
+                </li>
+                 
+                 
+                <li>
+                   <a href="logout.html">Sign out</a>
+                </li>
+              </ul>
+            </div>
+
+            </div>
+
+         </div>
+
+
+         
+         
+     </ul>
+     
+   </nav>
+    
+   <script src="Users_JS/navbar.js"></script>
+   <script>
+   function menuToggle() {
+    const toggleMenu = document.querySelector(".profile_menu");
+    toggleMenu.classList.toggle("active");
+  }</script>
+
+ </body>
+</html>
+    
+    

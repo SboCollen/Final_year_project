@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Users_CSS/register_resident.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script> 
+    
+        $(function(){
+            $("#yes").load('navbar.html');})
+    
+        </script>
+</head>
+<body>
+ <!--   {% extends 'base/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}-->
+<div id="yes"></div>
+    <div class="content-section">
+        <form method="post" name="district">
+           <!--{% csrf_token %}-->
+             
+                 
+                <!--{{ form|crispy }}-->
+                <!--but it should mach with below LD and City or Town from the database-->
+                 
+                <!--Can I create a select element within selection elements?-->
+                
+                <p>Go on your District Municipality and Choose your local Municipality </p>
+                <select name="amajuba" id="">
+                    <option value="">Amajuba District</option>
+                    <option value="Dannhauser Local">Dannhauser Local</option>
+                    <option value="eMadlangeni Local">eMadlangeni Local</option>
+                    <option value="Newcastle Local">Newcastle Local</option>
+                </select>
+
+                 
+                <select name="" id="" >
+                    <option value="">Zululand District</option>
+                    <option value="">AbaQulusi Local</option>
+                    <option value="">eDumbe Local</option>
+                    <option value="">Nongoma Local</option>
+                    <option value="">Ulundi Local</option>
+                    <option value="">uPhongolo Local</option>
+                </select>
+                
+                 
+                <select name="" id="">
+                    <option value="">Harry Gwala District</option>
+                    <option value="">Dr Nkosazana Dlamini Zuma Local</option>
+                    <option value="">Greater Kokstad Local</option>
+                    <option value="">Ubuhlebezwe Local</option>
+                    <option value="">Umzimkhulu Local</option>
+                </select>
+
+                 
+                <select name="" id="">
+                    <option value="">iLembe District</option>
+                    <option value="">KwaDukuza Local</option>
+                    <option value="">Mandeni Local</option>
+                    <option value="">Maphumulo Local</option>
+                    <option value="">Ndwedwe Local</option>
+                </select>
+ 
+                <select name="" id="">
+                    <option value="">King Cetshwayo District</option>
+                    <option value="">City of uMhlathuze Local</option>
+                    <option value="">Mthonjaneni Local</option>
+                    <option value="">Nkandla Local</option>
+                    <option value="">uMfolozi Local</option>
+                    <option value="">uMlalazi Local</option>
+                </select>
+ 
+                <select name="" id="">
+                    <option value="">Ugu District</option>
+                    <option value="">Ray Nkonyeni Local</option>
+                    <option value="">Umdoni Local</option>
+                    <option value="">Umuziwabantu Local</option>
+                    <option value="">Umzumbe Local</option>
+                </select>
+
+                 
+                <select name="" id="">
+                    <option value="">uMgungundlovu District</option>
+                    <option value="">Impendle Local</option>
+                    <option value="">Mkhambathini Local</option>
+                    <option value="">Mpofana Local</option>
+                    <option value="">Msunduzi Local</option>
+                    <option value="">Richmond Local</option>
+                    <option value="">uMngeni Local</option>
+                    <option value="">uMshwathi Local</option>
+                     
+                </select>
+
+                 
+                <select name="" id="">
+                    <option value="">uMkhanyakude District</option>
+                    <option value="">Big 5 Hlabisa Local</option>
+                    <option value="">Jozini Local</option>
+                    <option value="">Mtubatuba Local</option>
+                    <option value="">uMhlabuyalingana Local</option>
+                    
+                    
+                </select>
+
+                 
+                <select name="" id="">
+                    <option value="">uMzinyathi District</option>
+                    <option value="">Endumeni Local</option>
+                    <option value="">Nquthu Local</option>
+                    <option value="">uMsinga Local</option>
+                    <option value="">Umvoti Local</option>
+
+                </select>
+
+                 
+                <select name="" id="">
+                    <option value="">uThukela District</option>
+                    <option value="">Alfred Duma Local</option>
+                    <option value="">Inkosi Langalibalele Local</option>
+                    <option value="">Okhahlamba Local</option>
+                     
+                </select>
+                 
+                 
+             
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Register</button>
+               
+            </div >
+            <div class="text"><small class="text-muted">Already have an account? <a class="ml-2" href="../users/login.html">Sign In</a></small></div>
+            
+        </form>
+         
+        
+        <script src="../users/Users_JS/register_validation.js"></script>
+    </div>
+<!--{% endblock %}-->
+</body>
+</html>

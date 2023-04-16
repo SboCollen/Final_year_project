@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+     
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    background: #f6f5f7;
+    background: linear-gradient(to left, #414242, #37393a57, #c3cfeb );
+}
+
+.content-section{
+     
+    margin-top: 150px;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    background-color:  #024986;
+     
+    box-shadow: black  0px 5px 15px;
+     
+     
+}
+
+ 
+p{
+    justify-content: center;
+     display: flex;
+    font-size: 1.5rem;
+    margin: none;
+ }
+ 
+input{
+    justify-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 1.5rem;
+    color:#fff;
+    background-color:#010103;
+     
+
+}
+
+.ml-2{
+    color:#fff
+}
+/*Make it responsive for the phone like on the register page*/

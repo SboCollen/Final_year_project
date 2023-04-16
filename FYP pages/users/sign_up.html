@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/users/Users_CSS/sign_up.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script> 
+    
+        $(function(){
+            $("#navbar").load('navbar.html');})
+    
+        </script>
+
+</head>
+
+<body>
+    <div id="navbar" > </div>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                 
+                <input id="username" placeholder="Username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                 
+                <input id="email" placeholder="Email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                 
+                <input id="password" placeholder="Password" name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                 
+                <input id="password2" placeholder="Password again" name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <script src="/users/Users_JS/sign_up.js"></script>
+
+    
+</body>
+</html>

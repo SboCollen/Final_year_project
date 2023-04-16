@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+     margin-top: 9rem;
+    background-color: #f6f5f7;
+}
+.content-section{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(90, 93, 94);
+    background-color: #024986;
+    box-shadow: black  0px 5px 15px;
+     
+    border-radius: 1.5rem;
+    ackground-image: url(../Images/water-splash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5.5rem;
+}
+/*i should change the responsive for the web and phone
+
+make a button big for the web and small for the phone*/
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    padding: 0.5rem;
+    
+}
+select{
+     
+    justify-content: space-evenly;
+    margin-right: 1rem;
+    margin-top: 10px ;
+    margin: 1.5rem;
+    margin-left: 1rem;
+    
+    background-color:#010103;
+    color: #fff;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+ 
+
+
+ 
+
+.form-group{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+
+}
+
+button{
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color:#010103;
+    color:#fff ;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#bccbd2b6 ;
+    
+}
+
+
+
+.text{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: #fff;
+     
+}
+
+.ml-2{
+    color: rgba(29, 134, 253, 0.918);
+}
